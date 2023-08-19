@@ -80,11 +80,16 @@ module.exports = {
   new HtmlWebpackPlugin({
     filename: "product.html",
     template: "./src/product.html"
+  }),  
+  new HtmlWebpackPlugin({
+    filename: "payment.html",
+    template: "./src/payment.html"
   }),
   new HtmlWebpackPlugin({
     filename: "checkout.html",
     template: "./src/checkout.html"
   }),
+
     new MiniCssExtractPlugin({
       filename: "css/rtyle.css"
   }),
