@@ -1,0 +1,42 @@
+.custom-thumbnail {
+    border: 2px solid #cfcfcd;
+    padding: 8px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    transition: all .4s ease;
+    
+    img {
+        max-height: 250px;
+        max-width: 250px;
+        width: 100%;
+
+        @media (max-width: 767.98px) {
+            height: 250px;
+            margin: auto;
+        }
+
+        @media (max-width: 767.98px) and (max-width: 991.98px) {
+            height: 200px;
+        }
+    }
+
+    .sale {
+        padding: 5px 10px;
+        position: absolute;
+        left: 16px;
+        top: 14px;
+
+        &:before {
+            content: "-";
+        }
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    &:hover {
+    border-color: #53ccd7;
+    box-shadow: 0 0 6px #53ccd7;
+    }
+}

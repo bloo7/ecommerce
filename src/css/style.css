@@ -24,31 +24,6 @@ body {
     padding: 15px 0;
 }
 
-.custom-form-control, .dropdown a.custom-btn {
-    border: 1px solid #ebebeb;
-    box-shadow: none;
-    border-radius: 2px;
-    color: #868686;
-    height: 38px;
-    padding: 6px 16px 7px;
-    transition: all .7s ease;
-}
-
-.custom-form-control:focus {
-    border-color: #c2101e;
-    box-shadow: 0 0 2px 0;
-}
-
-.dropdown a.custom-btn:hover {
-    background-color: #d4d4d4;
-    border: 1px solid #8c8c8c;
-    color: #ff3956;
-}
-
-.dropdown a.custom-btn:focus {
-    color: #ff3956;
-}
-
 .dropdown a.categories {
     border-right: 0 !important;
     border-radius: 0;
@@ -152,21 +127,6 @@ body {
     margin-top: 15px;
 }
 
-.custom-btn-outline-warning {
-    background-color: transparent;
-    border-color: #f8ad47;
-    color: #f8ad47;
-}
-
-.custom-btn-outline-warning:hover,
-.custom-btn-outline-warning:active,
-.custom-btn-outline-warning:focus,
-.custom-btn-outline-warning:active:focus,
-.custom-btn-outline-warning:active:hover {
-    border-color: #b86d07;
-    color: #b86d07;
-}
-
 .sale {
     background-color: #53ccd7;
     color: #fff;
@@ -241,29 +201,6 @@ body {
     margin-bottom: 25px;
 }
 
-.custom-thumbnail img {
-    max-height: 250px;
-    max-width: 250px;
-    width: 100%;
-}
-
-.custom-thumbnail {
-    border: 2px solid #cfcfcd;
-    padding: 8px;
-    cursor: pointer;
-    margin-bottom: 50px;
-    transition: all .4s ease;
-}
-
-.custom-thumbnail:hover {
-    border-color: #53ccd7;
-    box-shadow: 0 0 6px #53ccd7;
-}
-
-.custom-thumbnail h4 {
-    font-size: 18px;
-}
-
 .price {
     color: #53ccd7;
 }
@@ -290,23 +227,6 @@ body {
 
 .overlay:hover {
     opacity: 1;
-}
-
-.add-to-cart-btn {
-    color: #53ccd7;
-    background-color: #fff;
-    font-weight: 700;
-}
-
-.custom-thumbnail .sale {
-    padding: 5px 10px;
-    position: absolute;
-    left: 16px;
-    top: 14px;
-}
-
-.custom-thumbnail .sale::before {
-    content: "-";
 }
 
 .carousel-indicators {
@@ -413,21 +333,6 @@ body {
     z-index: 2;
 }
 
-.custom-btn-warning {
-    color: #000;
-    background-color: #f8ad47;
-    border-color: #f8ad47;
-}
-
-.custom-btn-warning:hover,
-.custom-btn-warning:active,
-.custom-btn-warning:focus,
-.custom-btn-warning:active:focus,
-.custom-btn-warning:active:hover {
-    background-color: #b86d07;
-    border-color: #b86d07;
-}
-
 .newsletter form button {
     border-radius: 0;
     border-top-left-radius: 3px;
@@ -459,28 +364,6 @@ body {
 }
 
 /* product-page */
-
-.custom-breadcrumb {
-    padding: 25px 0;
-}
-
-.custom-breadcrumb a {
-    color: #555;
-    text-decoration: none;
-
-}
-
-.custom-breadcrumb a:hover {
-    color: #f8ad47;
-}
-
-.custom-breadcrumb>li::before {
-    color: #f8ad47 !important;
-}
-
-.custom-breadcrumb .active {
-    color: #918f8f;
-}
 
 #carousel-product-images .carousel-indicators {
     position: absolute;
@@ -593,53 +476,8 @@ h1.custom-heading {
     margin-left: 10px;
 }
 
-.custom-table th,
-.custom-table td {
-    padding: 15px;
-    font-size: 120%;
-    vertical-align: middle;
-    border-bottom: 1px solid #dddcdc;
-    border-top: 1px solid #dddcdc;
-}
-
-.custom-table h4 {
-    font-size: 18px;
-    margin: 12px 0;
-}
-
-.custom-table th {
-    color: #c2c2c2;
-    font-weight: normal;
-}
-
-.custom-table th:first-child,
-.custom-table td:first-child {
-    width: 50%;
-}
-
-.custom-table th:not(:first-child),
-.custom-table td:not(:first-child) {
-    text-align: center;
-}
-
-.custom-table tfoot td {
-    border-bottom: none;
-    font-size: 150%;
-}
-
 #total-price-for-all-product {
     color: #000;
-}
-
-.custom-btn-outline-denger {
-    background-color: transparent;
-    border-color: #ff3956;
-    color: #ff3956;
-}
-
-.custom-btn-outline-denger:hover {
-    border-color: #a70d24;
-    color: #a70d24;
 }
 
 /* payment page  */
@@ -711,6 +549,24 @@ h1.custom-heading {
     background-color: #fff !important;
     border-color: #f8ad47 !important;
 }
+
+#map {
+    padding: 0;
+}
+
+#contact-options h4 {
+    font-size: 18px;
+}
+
+#contact-info .fa-lg {
+    color: #f3af41;
+    margin: 10px 0px 0px 10px;
+}
+
+#contact-options textarea {
+    height: 105px !important;
+}
+
 @media (max-width: 1399.98px) {  }
 
 @media (max-width: 1199.98px) {
@@ -789,10 +645,6 @@ h1.custom-heading {
         font-weight: 400;
     }
 
-    .custom-thombnail img {
-        height: 200px;
-    }
-
     #row-brands .carousel-inner img {
         width: 200px !important;
         height: auto !important;
@@ -827,8 +679,6 @@ h1.custom-heading {
        align-items: center;
     }
 }
-
-@media (max-width: 767.98px) and (max-width: 991.98px) {  }
 
 @media (max-width: 767.98px) {
     
